@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-
+@font-face {
+  font-family: 'Yollanda';
+  src: url('Lovely_Yollandy1.otf');
+}
 
 @font-face {
     font-family: 'oswald';
     src: url('Candara.ttf');
+}
+.yollanda {
+  font-family: 'Yollanda';
+  font-size: 3rem
 }
 
 /* COLORS
