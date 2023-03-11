@@ -14,8 +14,57 @@
   <div class="contact">
     <main>
       <section>
+
+        <style>
+          .cover-photo {
+            width: auto; 
+            max-width: 
+            300px;
+            min-width: 200px;
+          }
+          /* Mobile devices (portrait and landscape) */
+          @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+          .cover-photo {
+            width: 100px;
+          }
+          .yollanda {
+            font-size: 2.4rem;
+          }
+          }
+  
+          /* Tablets (portrait and landscape) */
+          @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+          .cover-photo {
+            width: 800px;
+          }
+          .yollanda {
+            font-size: 0.2rem;
+          }
+          }
+          
+          /* Desktops and laptops */
+          @media only screen and (min-width: 1224px) {
+          .cover-photo {
+            width: 700px;
+          }
+          .yollanda {
+            font-size: 3rem;
+          }
+          }
+          
+          /* Large screens */
+          @media only screen and (min-width: 1824px) {
+          .cover-photo {
+            width: 700px;
+          }
+          .yollanda {
+            font-size: 3rem;
+          }
+          }
+        </style>
+
         <div class="content" style="background-color: white;">
-          <img style="width: 300px;" src="cover-photo.png" >
+          <img  class="cover-photo" src="cover-photo.png" >
             <p style="color:#064a5a;font-weight: bold;font-size: 1.8rem;">You have purchased <span style="color:#875d04;" class="yollanda">Anna Fairy</span> products, be your own beautiful!</p>
           <br><br><br>
           <button>
